@@ -1,3 +1,14 @@
+.open-sans-font {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+  }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 /* shared styles */
 .text-primary{
     color: #FD6E0A;
@@ -19,10 +30,12 @@
     color: #181818;
     font-weight: bold;
     font-size: 35px;
+    margin-bottom: 20px;
 }
 .section-description{
     font-size: 18px;
     color: #75757575;
+    margin-bottom: 20px;
 }
 .secondary-bg{
     background-color: #FFF8F3;
@@ -33,9 +46,10 @@
 /* nav styles */
 
 header{
-    background-image: url(""),url('');
+    background-image: url("./images/developer.png"),url('./images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left,bottom right;
+    
 }
 nav{
     display: flex;
@@ -66,6 +80,7 @@ nav li a{
 }
 .banner-content{
     max-width: 580px;
+    margin-top: 30px;
 }
 .banner-gretings{
     font-size: 45px;
@@ -75,9 +90,14 @@ nav li a{
 .banner-title{
     font-weight: bold;
     font-size: 85px;
+    margin-bottom: 20px;
+}
+.banner p{
+    margin-bottom: 20px;
 }
 .banner-profile-pic{
     width: 580px;
+    margin-left: 90px;
 }
 main{
     max-width: 1140px;
@@ -91,6 +111,7 @@ main section{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
+    border: #181818;
 }
 .about-items{
     display: flex;
@@ -108,6 +129,9 @@ main section{
     display: flex;
     gap: 24px;
     text-align: justify;
+}
+section .section-title{
+    margin: 15px 0px;
 }
 /* resume sections styles */
  .resume-container{
@@ -144,4 +168,7 @@ footer input[type="text"],footer input[type="email"],footer textarea{
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
+}
+footer .icons{
+    margin-top: 20px;
 }
